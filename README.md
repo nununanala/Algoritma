@@ -3,7 +3,7 @@
 Siti Nurvatika
 F55123009
 ##### (Pseudocode Marge Sort:)
-'''
+```
 Pseudocode untuk Merge Sort
  fungsi mergeSort(arr):
      jika panjang arr ≤ 1:
@@ -26,7 +26,7 @@ Pseudocode untuk Merge Sort
 tambahkan sisa elemen kiri (jika ada) ke hasil
     tambahkan sisa elemen kanan (jika ada) ke hasil
 kembalikan hasil
-'''
+```
 #### (Analisis Big O dan Big Theta untuk Merge Sort:)
 1. Divide Step (Pembagian):
     a). Pada setiap langkah rekursif, daftar dibagi menjadi dua bagian yang hampir sama besar.
@@ -45,7 +45,7 @@ Big Theta (Θ) menunjukkan kompleksitas waktu dalam semua kondisi (baik terbaik,
 Karena Merge Sort selalu memerlukan log(n) pembagian dan O(n) waktu untuk setiap penggabungan, kompleksitasnya adalah Θ(n log n).
 
 ##### (Pseudocode Bubble Sort:)
-'''
+```
 fungsi bubbleSort(arr):
      n = panjang arr
      untuk i dari 0 sampai n-1:
@@ -53,7 +53,7 @@ fungsi bubbleSort(arr):
              jika arr[j] > arr[j+1]:
                  tukar arr[j] dan arr[j+1]
      kembalikan arr
-  '''
+  ```
      
 #### (Analisis Big O dan Big Theta untuk Bubble Sort:)
 1). Big O Analysis (Worst-case Time Complexity):
