@@ -57,15 +57,15 @@ fungsi bubbleSort(arr):
      
 #### (Analisis Big O dan Big Theta untuk Bubble Sort:)
 1). Big O Analysis (Worst-case Time Complexity):
-    a). Pada Bubble Sort, setiap elemen akan dibandingkan dengan elemen lainnya dan dipindahkan jika diperlukan.
-    b). Outer Loop berjalan sebanyak n kali.
-    c). Inner Loop berjalan sebanyak n-i-1 kali. Untuk iterasi pertama, inner loop akan berjalan n-1 kali, pada iterasi kedua akan berjalan n-2 kali, dan seterusnya.
-    d). Worst-case Time Complexity adalah O(n²), karena dalam kasus terburuk, kita perlu membandingkan setiap elemen dengan setiap elemen lainnya (misalnya, jika daftar berurutan dalam urutan terbalik).
+    1. Pada Bubble Sort, setiap elemen akan dibandingkan dengan elemen lainnya dan dipindahkan jika diperlukan.
+    2. Outer Loop berjalan sebanyak n kali.
+    3. Inner Loop berjalan sebanyak n-i-1 kali. Untuk iterasi pertama, inner loop akan berjalan n-1 kali, pada iterasi kedua akan berjalan n-2 kali, dan seterusnya.
+    4. Worst-case Time Complexity adalah O(n²), karena dalam kasus terburuk, kita perlu membandingkan setiap elemen dengan setiap elemen lainnya (misalnya, jika daftar berurutan dalam urutan terbalik).
 
 2). Big Theta Analysis (Average-case and Best-case Time Complexity):
 #### Best-case Time Complexity:
-    a). Best-case terjadi ketika daftar sudah terurut, dan kita hanya perlu satu kali melalui array untuk memverifikasi bahwa tidak ada yang perlu dipertukarkan.
-    b). Dalam hal ini, jika kita menambahkan pengoptimalan untuk memeriksa apakah ada pertukaran yang dilakukan dalam satu iterasi (sehingga menghentikan proses lebih awal jika tidak ada perubahan), maka         kompleksitas waktu best-case bisa menjadi O(n).
-    c). Tanpa pengoptimalan, meskipun data sudah terurut, Bubble Sort tetap akan menjalankan seluruh loop, sehingga tetap O(n²).
+    1. Best-case terjadi ketika daftar sudah terurut, dan kita hanya perlu satu kali melalui array untuk memverifikasi bahwa tidak ada yang perlu dipertukarkan.
+    2. Dalam hal ini, jika kita menambahkan pengoptimalan untuk memeriksa apakah ada pertukaran yang dilakukan dalam satu iterasi (sehingga menghentikan proses lebih awal jika tidak ada perubahan), maka         kompleksitas waktu best-case bisa menjadi O(n).
+    3. Tanpa pengoptimalan, meskipun data sudah terurut, Bubble Sort tetap akan menjalankan seluruh loop, sehingga tetap O(n²).
 #### Average-case Time Complexity:
     Pada rata-rata kasus, setiap elemen akan dibandingkan dengan elemen lainnya beberapa kali. Oleh karena itu, Average-case juga memiliki kompleksitas waktu O(n²).
